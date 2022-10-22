@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #16182308;
+    }
+}
+
+.info {
+    flex: 1;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nickname {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #161823;
+}
+
+.check {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #20d5ec;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #161823bf;
+}
